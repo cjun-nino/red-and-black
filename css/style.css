@@ -1,0 +1,202 @@
+
+@font-face {
+    font-family: "font1";
+    src: url("../font/fzsbj.TTF");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.con {
+    margin: 10px auto;
+    width: 2500px;
+    height: 1500px;
+    background-color: aliceblue;
+    background-image: url("../pic/bg.png");
+    background-size: 100% 100%;
+}
+.con .black-box {
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+.con .black-box .title {
+    font-family: "font1";
+    font-size: 68px;
+    color: #FFF;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+}
+.con .black-box .title-line {
+    font-size: 44px;
+    color: #FFF;
+    position: absolute;
+    left: 270px;
+    top: 64px;
+}
+.con .black-box .title-en {
+    font-size: 54px;
+    color: #FFF;
+    position: absolute;
+    left: 320px;
+    top: 60px;
+}
+.con .black-box .black-con {
+    position: absolute;
+    width: 2300px;
+    top: 200px;
+    left: 100px;
+    right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.con .black-box .black-con .con-item {
+    flex-shrink: 0;
+    width: 20%;
+    height: 400px;
+    /* background-color: aliceblue; */
+    position: relative;
+}
+.con .black-box .black-con .con-item .item-title {
+    padding-left: 100px;
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    background-image: url("../pic/tit-bg-2.png");
+    background-size: auto 80px;
+    background-repeat: no-repeat;
+    line-height: 106px;
+    font-size: 30px;
+    color: #FFF;
+    font-family: "font1";
+    text-shadow: 5px 5px 5px #000;
+}
+.item-title-tips {
+    position: absolute;
+    top: -10px;
+    left: 17px;
+    background-size: auto 80px;
+    background-repeat: no-repeat;
+    font-size: 26px;
+    color: #FFF;
+    font-family: "font1";
+    text-shadow: 5px 5px 5px #000;
+}
+.con .red-box {
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+
+.con .red-box .logo {
+    width: 300px;
+    height: 78px;
+    background-image: url("../pic/logo.png");
+    background-size: auto 100%;
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+.con .red-box .big-logo-box {
+    width: 600px;
+    height: 450px;
+    position: absolute;
+    left: 100px;
+    top: 55px;
+}
+.con .red-box .big-logo-box .tit-top {
+    width: 60px;
+    position: absolute;
+    top: 18px;
+    left: 190px;
+    font-size: 112px;
+    font-family: "font1";
+    font-weight: bold;
+    color: #FFF;
+    text-shadow: 5px 5px 5px #000;
+}
+.con .red-box .big-logo-box .tit-bottom {
+    width: 60px;
+    position: absolute;
+    left: 0px;
+    font-size: 158px;
+    font-family: "font1";
+    font-weight: bold;
+    
+    color: #FFF;
+    text-shadow: 5px 5px 5px #000;
+}
+.color-red {
+    color: #bd0505;
+    text-shadow: 5px 5px 5px #FFF;
+}
+.color-black {
+    color: #272626;
+    text-shadow: 5px 5px 5px #FFF;
+}
+
+.con .red-box .title {
+    font-family: "font1";
+    font-size: 68px;
+    color: #FFF;
+    position: absolute;
+    right: 100px;
+    top: 60px;
+}
+.con .red-box .title-line {
+    font-size: 44px;
+    color: #FFF;
+    position: absolute;
+    right: 270px;
+    top: 64px;
+}
+.con .red-box .title-en {
+    font-size: 54px;
+    color: #FFF;
+    position: absolute;
+    right: 320px;
+    top: 60px;
+}
+
+.con .red-box .red-con {
+    position: absolute;
+    width: 1840px;
+    top: 200px;
+    /* left: 100px; */
+    right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.con .red-box .red-con .con-item {
+    flex-shrink: 0;
+    width: 25%;
+    height: 400px;
+    /* background-color: aliceblue; */
+    position: relative;
+}
+.con .red-box .red-con .con-item .item-title {
+    padding-left: 100px;
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    background-image: url("../pic/tit-bg-1.png");
+    background-size: auto 80px;
+    background-repeat: no-repeat;
+    line-height: 106px;
+    font-size: 30px;
+    color: #FFF;
+    font-family: "font1";
+    text-shadow: 5px 5px 5px #000;
+}
+.item-title-tips {
+    position: absolute;
+    top: -10px;
+    left: 17px;
+    background-size: auto 80px;
+    background-repeat: no-repeat;
+    font-size: 26px;
+    color: #FFF;
+    font-family: "font1";
+    text-shadow: 5px 5px 5px #000;
+}
