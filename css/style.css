@@ -53,21 +53,21 @@
 }
 .con .black-box .black-con .con-item {
     flex-shrink: 0;
-    width: 20%;
+    width: 25%;
     height: 400px;
     /* background-color: aliceblue; */
     position: relative;
 }
 .con .black-box .black-con .con-item .item-title {
-    padding-left: 100px;
+    padding-left: 150px;
     position: absolute;
-    width: 300px;
-    height: 80px;
+    width: 400px;
+    height: 120px;
     background-image: url("../pic/tit-bg-2.png");
-    background-size: auto 80px;
+    background-size: auto 120px;
     background-repeat: no-repeat;
-    line-height: 106px;
-    font-size: 30px;
+    line-height: 165px;
+    font-size: 40px;
     color: #FFF;
     font-family: "font1";
     text-shadow: 5px 5px 5px #000;
@@ -171,21 +171,21 @@
 }
 .con .red-box .red-con .con-item {
     flex-shrink: 0;
-    width: 25%;
+    width: 33%;
     height: 400px;
     /* background-color: aliceblue; */
     position: relative;
 }
 .con .red-box .red-con .con-item .item-title {
-    padding-left: 100px;
+    padding-left: 150px;
     position: absolute;
-    width: 300px;
-    height: 80px;
+    width: 400px;
+    height: 120px;
     background-image: url("../pic/tit-bg-1.png");
-    background-size: auto 80px;
+    background-size: auto 120px;
     background-repeat: no-repeat;
-    line-height: 106px;
-    font-size: 30px;
+    line-height: 165px;
+    font-size: 40px;
     color: #FFF;
     font-family: "font1";
     text-shadow: 5px 5px 5px #000;
@@ -194,23 +194,23 @@
 }
 .item-title-tips {
     position: absolute;
-    top: -10px;
-    left: 17px;
+    top: -20px;
+    left: 40px;
     background-size: auto 80px;
     background-repeat: no-repeat;
-    font-size: 26px;
+    font-size: 36px;
     color: #FFF;
     font-family: "font1";
     text-shadow: 5px 5px 5px #000;
 }
 .item-title-info {
     position: absolute;
-    top: 51px;
-    left: 22px;
+    top: 70px;
+    left: 10px;
 
     background-size: auto 80px;
     background-repeat: no-repeat;
-    font-size: 16px;
+    font-size: 29px;
     color: #FFF;
     font-family: "font1";
     text-shadow: 5px 5px 5px #000;
@@ -221,11 +221,12 @@
     /* background-color: aqua; */
     position: absolute;
     top: 120px;
+    padding-top: 100px;
 }
 .item-con::after {
     content: "";
     width: 1px;
-    height: 140px;
+    height: 200px;
     background-color: #FFF;
     position: absolute;
     right: 40px;
@@ -241,24 +242,25 @@
     top: 110px;
 }
 .item-con .line {
-    padding-left: 0px;
-    padding-right: 100px;
+    padding-left: 40px;
+    padding-right: 150px;
     color: #FFF;
     font-family: "font1";
-    font-size: 30px;
-    margin-top: 60px;
+    font-size: 40px;
+    margin-top: 0px;
     line-height: 40px;
-    height: 40px;
+    height: 20px;
+    margin-bottom: 100px;
 }
 
 .padding4 {
-    margin-top: 50px !important;
+    margin-bottom: 60px !important;
 }
 .padding5 {
-    margin-top: 35px !important;
+    margin-bottom: 40px !important;
 }
 .padding6 {
-    margin-top: 24px !important;
+    margin-bottom: 30px !important;
 }
 .app-name {
     float: left;

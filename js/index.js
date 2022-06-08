@@ -1,22 +1,22 @@
-var danNum1 = 3;
-var danNum2 = 3;
-var danNum3 = 3;
-var danNum4 = 3;
-var danNum5 = 3;
-var danNum6 = 3;
-var danNum7 = 3;
-var danNum8 = 3;
-var danNum9 = 3;
+var danNum1 = 1;
+var danNum2 = 1;
+var danNum3 = 1;
+var danNum4 = 1;
+// var danNum5 = 1;
+var danNum6 = 1;
+var danNum7 = 1;
+var danNum8 = 1;
+// var danNum9 = 1;
 
 var oDang1 = document.getElementById("danger_1");
 var oDang2 = document.getElementById("danger_2");
 var oDang3 = document.getElementById("danger_3");
 var oDang4 = document.getElementById("danger_4");
-var oDang5 = document.getElementById("danger_5");
+// var oDang5 = document.getElementById("danger_5");
 var oDang6 = document.getElementById("danger_6");
 var oDang7 = document.getElementById("danger_7");
 var oDang8 = document.getElementById("danger_8");
-var oDang9 = document.getElementById("danger_9");
+// var oDang9 = document.getElementById("danger_9");
 
 var oDanRed1 = document.getElementById("danger_red_1");
 var oDanNum1 = document.getElementById("danger_num_1");
@@ -34,9 +34,9 @@ var oDanRed4 = document.getElementById("danger_red_4");
 var oDanNum4 = document.getElementById("danger_num_4");
 var oDanAdd4 = document.getElementById("danger_add_4");
 
-var oDanRed5 = document.getElementById("danger_red_5");
-var oDanNum5 = document.getElementById("danger_num_5");
-var oDanAdd5 = document.getElementById("danger_add_5");
+// var oDanRed5 = document.getElementById("danger_red_5");
+// var oDanNum5 = document.getElementById("danger_num_5");
+// var oDanAdd5 = document.getElementById("danger_add_5");
 
 var oDanRed6 = document.getElementById("danger_red_6");
 var oDanNum6 = document.getElementById("danger_num_6");
@@ -50,9 +50,9 @@ var oDanRed8 = document.getElementById("danger_red_8");
 var oDanNum8 = document.getElementById("danger_num_8");
 var oDanAdd8 = document.getElementById("danger_add_8");
 
-var oDanRed9 = document.getElementById("danger_red_9");
-var oDanNum9 = document.getElementById("danger_num_9");
-var oDanAdd9 = document.getElementById("danger_add_9");
+// var oDanRed9 = document.getElementById("danger_red_9");
+// var oDanNum9 = document.getElementById("danger_num_9");
+// var oDanAdd9 = document.getElementById("danger_add_9");
 
 oDanRed1.onclick = function () {
     if (danNum1 <= 0) {
@@ -130,24 +130,24 @@ oDanAdd4.onclick = function () {
     Danger4Format()
 }
 
-oDanRed5.onclick = function () {
-    if (danNum5 <= 0) {
-        danNum5 = 0;
-    } else {
-        danNum5 = danNum5 - 1
-    }
-    oDanNum5.innerText = danNum5
-    Danger5Format()
-}
-oDanAdd5.onclick = function () {
-    if (danNum5 >= 6) {
-        danNum5 = 6;
-    } else {
-        danNum5= danNum5 + 1
-    }
-    oDanNum5.innerText = danNum5
-    Danger5Format()
-}
+// oDanRed5.onclick = function () {
+//     if (danNum5 <= 0) {
+//         danNum5 = 0;
+//     } else {
+//         danNum5 = danNum5 - 1
+//     }
+//     oDanNum5.innerText = danNum5
+//     Danger5Format()
+// }
+// oDanAdd5.onclick = function () {
+//     if (danNum5 >= 6) {
+//         danNum5 = 6;
+//     } else {
+//         danNum5= danNum5 + 1
+//     }
+//     oDanNum5.innerText = danNum5
+//     Danger5Format()
+// }
 
 oDanRed6.onclick = function () {
     if (danNum6 <= 0) {
@@ -206,24 +206,24 @@ oDanAdd8.onclick = function () {
     Danger8Format()
 }
 
-oDanRed9.onclick = function () {
-    if (danNum9 <= 0) {
-        danNum9 = 0;
-    } else {
-        danNum9 = danNum9 - 1
-    }
-    oDanNum9.innerText = danNum9
-    Danger9Format()
-}
-oDanAdd9.onclick = function () {
-    if (danNum9 >= 6) {
-        danNum9 = 6;
-    } else {
-        danNum9= danNum9 + 1
-    }
-    oDanNum9.innerText = danNum9
-    Danger9Format()
-}
+// oDanRed9.onclick = function () {
+//     if (danNum9 <= 0) {
+//         danNum9 = 0;
+//     } else {
+//         danNum9 = danNum9 - 1
+//     }
+//     oDanNum9.innerText = danNum9
+//     Danger9Format()
+// }
+// oDanAdd9.onclick = function () {
+//     if (danNum9 >= 6) {
+//         danNum9 = 6;
+//     } else {
+//         danNum9= danNum9 + 1
+//     }
+//     oDanNum9.innerText = danNum9
+//     Danger9Format()
+// }
 
 function Danger1Format() {
     let oTxt = ``;
@@ -371,8 +371,8 @@ Danger1Format();
 Danger2Format();
 Danger3Format();
 Danger4Format();
-Danger5Format();
+// Danger5Format();
 Danger6Format();
 Danger7Format();
 Danger8Format();
-Danger9Format();
+// Danger9Format();
